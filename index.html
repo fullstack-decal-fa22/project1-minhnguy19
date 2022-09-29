@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Minh Nguyen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="The personal website efor Minh Nguyen">
+    <meta name="description" content="The personal website for Minh Nguyen">
     <meta name="author" content="Minh Nguyen @ UC Berkeley">
 
    
@@ -30,11 +30,13 @@
   <body>
 
 
-    
+    <!--Top of the website-->
     <header>
         <div class="row">
+            <!--Short description about me-->
             <h1 style="font-weight: normal"; id="name">Minh Nguyen 
                 <div id="short-intro"> currently studying EECS @ UC Berkeley</div>
+                <!--Contact icons-->
                 <div class="icons">
                     <a class="icons-links" href="mailto:minhnguy19@gmail.com"><i class="bi bi-envelope-paper-heart"></i></a>
                     <a class="icons-links" href="https://www.linkedin.com/in/minhnguy19/"><i class="bi bi-linkedin"></i></a>
@@ -42,6 +44,7 @@
                     <a class="icons-links" href="https://www.instagram.com/feelsbadminh/"><i class="bi bi-instagram"></i></a>
                 </div>
             </h1>
+            <!--Profile picture-->
             <img src="website photo-modified.png" style="max-width: 50%;
             height:auto";/>
         </div>    
@@ -49,10 +52,14 @@
 
     <br>
     <br>
+
+    <!--About me section-->
     <div class="container">
+        <!--Section title-->
             <div class="section-title">
                 <h2> about-me</h2>
             </div>
+            <!--Descriptions about who I am and my interests-->
             <h5 class="text">
                 <p>Hi there! I'm Minh, a born and raised Vietnamese at UC Berkeley exploring
                 the innovative fields of Computer Vision and Web Development! 
@@ -63,44 +70,64 @@
             </h5>
     </div>
 
+    <!--Projects section-->
     <div class ="container">
+        <!--Section title-->
         <div class="section-title">
                 <h2>projects </h2>
         </div>
-            <i class="bi bi-arrow-return-right"></i>
+        <!--Arrow pointing to the project's description box-->
+        <i class="bi bi-arrow-return-right"></i>
+        <!-- Text in the description box-->
         <div class ="text project">
             <h4>Gitlet </h4>
             <h5>A <span style="color:#f5f5f5;background-color: #a8a8a8; padding-left: 3px; padding-right: 3px;">version control system</span> that mimics basic features of Git.</h5>
         </div>
         <br>
-            <i class="bi bi-arrow-return-right"></i>
+
+        <!--Arrow pointing to the project's description box-->
+        <i class="bi bi-arrow-return-right"></i>
+        <!-- Text in the description box-->
         <div class ="text project">
             <h4>Ataxx </h4>
             <h5>An <span style="color:#f5f5f5;background-color: #a8a8a8; padding-left: 3px; padding-right: 3px;">abstract strategy board game</span> with an AI capable of choosing the most optimal moves.</h5>
         </div>
         <br>
-            <i class="bi bi-arrow-return-right"></i>
+
+        <!--Arrow pointing to the project's description box-->
+        <i class="bi bi-arrow-return-right"></i>
+        <!-- Text in the description box-->
         <div class ="text project">
             <h4>Enigma </h4>
             <h5>A <span style="color:#f5f5f5;background-color: #a8a8a8; padding-left: 3px; padding-right: 3px;">simulator of the Enigma encryption machine</span> capable of encoding/decoding messages.</h5>
         </div>
     </div>
 
+    <!--Misc. section-->
     <div class="container">
         <div class="section-title">
             <h2>miscellaneous</h2   >
         </div>
     </div>
 
+    <!--Form section with JavaScript-->
     <div class="form-style">
         <form name="form">
             <h3>Do you want to see cute corgis?</h3>
+            <!--Input accepting only "yes" or "no"-->
             <input type="text" name ="answer" id="answer" placeholder="please enter yes or no" />
             <button type="submit" name="submit" id="submit" value="submit" onclick="validate();return false;"/>submit</button>
         </form>
-        <button id="link-button" style="display:none" onclick="visitCorgi()">click me</button>
+        <!--Show button to corgi website if "yes"-->
+        <button id="corgi-link-button" style="display:none" onclick="visitCorgi()">click me</button>
+        <!--Show button with disapproving face if "no"-->
+        <button id="sad-link-button" style="display:none">why not D:<</button>
     </div>
     <br><br><br><br><br><br><br><br>
+
+
+    
+    <!--Thank you note-->
     <div class="container">
         <h6>Thank you for looking at my website!</h6>
     </div>
