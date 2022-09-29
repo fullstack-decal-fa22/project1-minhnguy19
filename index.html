@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <!--Meta information-->
+    <meta charset="utf-8">
+    <title>Minh Nguyen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The personal website efor Minh Nguyen">
+    <meta name="author" content="Minh Nguyen @ UC Berkeley">
+
+   
+   
+    <!-- Style Sheets -->
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <!--Fonts-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <!--Style sheet-->
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    
+
+  </head>
+  
+
+  <body>
+
+
+    
+    <header>
+        <div class="row">
+            <h1 style="font-weight: normal"; id="name">Minh Nguyen 
+                <div id="short-intro"> currently studying EECS @ UC Berkeley</div>
+                <div class="icons">
+                    <a class="icons-links" href="mailto:minhnguy19@gmail.com"><i class="bi bi-envelope-paper-heart"></i></a>
+                    <a class="icons-links" href="https://www.linkedin.com/in/minhnguy19/"><i class="bi bi-linkedin"></i></a>
+                    <a class="icons-links" href="https://github.com/minhnguy19"><i class="bi bi-github"></i></a>
+                    <a class="icons-links" href="https://www.instagram.com/feelsbadminh/"><i class="bi bi-instagram"></i></a>
+                </div>
+            </h1>
+            <img src="C:\Users\minhn\Downloads\website photo-modified.png" style="max-width: 50%;
+            height:auto";/>
+        </div>    
+    </header>
+
+    <br>
+    <br>
+    <div class="container">
+            <div class="section-title">
+                <h2> about-me</h2>
+            </div>
+            <h5 class="text">
+                <p>Hi there! I'm Minh, a born and raised Vietnamese at UC Berkeley exploring
+                the innovative fields of Computer Vision and Web Development! 
+                </p> 
+                <p>Outside of school, I love to <a class="text-links" href="https://www.goodreads.com/user/show/25622793-minh-nguyen">read books</a>
+                    (especially fanatasy/detective mystery novels), explore Asian cuisine in the Bay Area, 
+                    obsess over fountain pens, and give my corgi unlimited amount of hugs!</p>
+            </h5>
+    </div>
+
+    <div class ="container">
+        <div class="section-title">
+                <h2>projects </h2>
+        </div>
+            <i class="bi bi-arrow-return-right"></i>
+        <div class ="text project">
+            <h4>Gitlet </h4>
+            <h5>A <span style="color:#f5f5f5;background-color: #a8a8a8; padding-left: 3px; padding-right: 3px;">version control system</span> that mimics basic features of Git.</h5>
+        </div>
+        <br>
+            <i class="bi bi-arrow-return-right"></i>
+        <div class ="text project">
+            <h4>Ataxx </h4>
+            <h5>An <span style="color:#f5f5f5;background-color: #a8a8a8; padding-left: 3px; padding-right: 3px;">abstract strategy board game</span> with an AI capable of choosing the most optimal moves.</h5>
+        </div>
+        <br>
+            <i class="bi bi-arrow-return-right"></i>
+        <div class ="text project">
+            <h4>Enigma </h4>
+            <h5>A <span style="color:#f5f5f5;background-color: #a8a8a8; padding-left: 3px; padding-right: 3px;">simulator of the Enigma encryption machine</span> capable of encoding/decoding messages.</h5>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section-title">
+            <h2>miscellaneous</h2   >
+        </div>
+    </div>
+
+    <div class="form-style">
+        <form name="form">
+            <h3>Do you want to see cute corgis?</h3>
+            <input type="text" name ="answer" id="answer" placeholder="please enter yes or no" />
+            <button type="submit" name="submit" id="submit" value="submit" onclick="validate();return false;"/>submit</button>
+        </form>
+        <button id="link-button" style="display:none" onclick="visitCorgi()">click me</button>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div class="container">
+        <h6>Thank you for looking at my website!</h6>
+    </div>
+    <script type="text/javascript"  src="script.js"></script>
+  </body>
+
+
+</html>
