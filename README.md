@@ -1,1 +1,1 @@
-https://fullstack-decal-fa22.github.io/project1-minhnguy19/s
+https://fullstack-decal-fa22.github.io/project1-minhnguy19/
